@@ -20,7 +20,7 @@ app.use((req, res, next) =>{
 
 const PORT = process.env.PORT
 app.get('/',  async (req, res) => {
-    res.json({msg:`Mini Shop API is Live `})
+    res.json({msg:`Mini Shop API is Live`})
 })
 
 app.use('/api/v1/products',productRoutes)
